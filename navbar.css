@@ -1,0 +1,28 @@
+.navigationbar {
+    background-color: rgba(5, 117, 1, 0.767);
+    overflow: hidden;
+}
+
+.navigationbar a:hover {
+    background-color: rgba(5, 90, 1, 0.767);
+}
+
+.navigationbar a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+.navigationbar a.active {
+    background-color: #004e7a;
+}
+
+.navigationbar .login-container {
+    float: right;
+}
+
+.active.dropdown {
+	background-color: #004e7a;
+}
